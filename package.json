@@ -1,0 +1,56 @@
+{
+  "name": "react-nyt-assignment",
+  "version": "1.0.0",
+  "description": "Build a simple app to hit the NY Times Top Stories API and show a list of stories, that shows details when items on the list are tapped",
+  "main": "src/index.tsx",
+  "scripts": {
+    "develop": "webpack-cli serve --mode=development --env development --open --hot",
+    "build": "webpack --mode=production --env production --progress",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushank/react-new-york-time-assignment.git"
+  },
+  "author": "Tushank Shethe <tushank.shethe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tushank/react-new-york-time-assignment/issues"
+  },
+  "homepage": "https://github.com/tushank/react-new-york-time-assignment#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@types/node": "^17.0.2",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "fork-ts-checker-webpack-plugin": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
+    "prettier": "^2.5.1",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.0"
+  }
+}
